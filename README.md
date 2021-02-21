@@ -7,3 +7,6 @@ An HTML/CSS website that makes use of a Firebase Firestore database alongside Ja
 
 # youtube link
 https://youtu.be/lMNvCeKmxtc
+
+# Figma
+https://www.figma.com/file/txlFbAHu7WD4qdVskAGEpy/Homepage?node-id=0%3A1
