@@ -6,4 +6,4 @@ More than 14,000 businesses in BC closed during the first two months of the COVI
 An HTML/CSS website that makes use of a Firebase Firestore database alongside JavaScript to store all details of local businesses. Business owners are given the option to add their own local businesses on to the website on the listing page among other businesses. We prototyped and designed with sketches and also the user-interface with Figma.
 
 # youtube link
-https://youtu.be/Bu0ugRMYeNA
+https://youtu.be/lMNvCeKmxtc
