@@ -1,3 +1,6 @@
 # StormHacks
-hi
-hello
+
+# Inspiration
+More than 14,000 businesses in BC closed during the first two months of the COVID-19 pandemic. While all businesses are struggling due to the world-wide pandemic, there are local businesses that are struggling much more. a website highlighting local businesses around us who would appreciate our love and support during this trying time.
+
+An HTML website that uses a Firebase Firestore database with JavaScript connecting them to store all details of local businesses. Users are given the option to add their own local businesses on to the website on the listing page among other businesses. We prototyped and designed with sketches and also the user-interface with Figma.
