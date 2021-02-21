@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+        <link rel="stylesheet" href="styles2.css">
+    </head>
+    <body>
+
+        <h1>Cloud Restaurant</h1>
+
+        <div class="content">
+
+            <form id="add-restaurant-form"></form>
+
+            <ul id="restaurant-list"></ul>
+
+        </div>
+        
+        <script>
+            var firebaseConfig = {
+              apiKey: "AIzaSyBFPe6AE0ZjyKOQ2oO1QnxVU4aAy--6iyI",
+              authDomain: "localrestaurants-a75b6.firebaseapp.com",
+              databaseURL: "https://localrestaurants-a75b6-default-rtdb.firebaseio.com",
+              projectId: "localrestaurants-a75b6",
+              storageBucket: "localrestaurants-a75b6.appspot.com",
+              messagingSenderId: "631629172629",
+              appId: "1:631629172629:web:8cf80c87c17bd840f9f09c",
+              measurementId: "G-BP3TRVJ09B"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+            const db = firebase.firestore();
+            db.settings({ timestampInSnapshots: true });
+          </script>
+          <script src ="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,558 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Aclonica:400|Roboto:300italic,500,700,400,300");
+* {
+  box-sizing: border-box;
+}
+
+
+
+.aclonica-normal-black-96px {
+  color: black;
+  font-family: "Aclonica", Helvetica, Arial, serif;
+  min-height: 100px;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+}
+.restaurants-listing {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 3734px;
+  overflow: hidden;
+  width: 1440px;
+  justify-content: space-evenly; 
+  align-items: center; 
+  margin: 0; 
+}
+.restaurants-listing .about-us-i421310 {
+  letter-spacing: 0px;
+  margin-left: 1px;
+  min-height: 28px;
+  min-width: 101px;
+  text-align: center;
+}
+.restaurants-listing .address {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 492px;
+  width: 353px;
+}
+.restaurants-listing .all-i4218140 {
+  left: 110px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 201px;
+}
+.restaurants-listing .apply-i4218142 {
+  left: 342px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  min-height: 100px; 
+  top: 0px;
+  width: 201px;
+}
+.restaurants-listing .auto-flex {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 27px;
+  min-width: 1286px;
+}
+.restaurants-listing .auto-flex-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 69px;
+  min-width: 1286px;
+}
+.restaurants-listing .auto-flex1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 28px;
+  margin-right: 66px;
+  margin-top: 45px;
+  min-width: 285px;
+}
+.restaurants-listing .auto-flex6 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  height: 28px;
+  margin-right: 76.53px;
+  margin-top: 67px;
+  min-width: 171px;
+}
+.restaurants-listing .auto-flex7 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 56.85px;
+  margin-left: 90px;
+  min-height: 105px;
+  width: 40px;
+}
+.restaurants-listing .auto-flex8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 302px;
+  margin-top: 26px;
+  min-height: 121px;
+  width: 165px;
+}
+.restaurants-listing .auto-flex9 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  margin-left: 297px;
+  min-height: 177px;
+  width: 158px;
+}
+.restaurants-listing .component- {
+  height: 519px;
+  pointer-events: auto;
+  margin-right: 100px; 
+  transition: all 0.2s ease;
+  width: 376px;
+}
+.restaurants-listing .component--1 {
+  height: 519px;
+  margin-left: 85px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 376px;
+}
+
+.restaurants-listing .component-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 100px; 
+  margin-right: 100px;
+  margin-top: 57px;
+  min-height: 210px;
+  width: 567px;
+}
+
+.restaurants-listing .component-5{
+	flex-direction: column; 
+	width: 50px; 
+}
+
+.restaurants-listing .footer {
+  align-items: flex-start;
+  background-color: var(--soft-peach);
+  display: flex;
+  height: 264px;
+  margin-top: 39px;
+  min-width: 1440px;
+}
+.restaurants-listing .go-local-i4224143 {
+  letter-spacing: 0px;
+  /*margin-left: -1006px;
+  min-height: 109px;
+  min-width: 780px;*/
+  text-align: center;
+}
+.restaurants-listing .header {
+  align-items: center;
+  display: flex;
+  min-height: 100px; 
+  height: 92px;
+  min-width: 1440px;
+  padding: 0 59px;
+}
+.restaurants-listing .lo-go-i42133 {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  width: 223px;
+}
+.restaurants-listing .overlap-group {
+  height: 186px;
+  margin-left: -17px;
+  margin-top: -0.2px;
+  position: relative;
+  width: 223px;
+}
+.restaurants-listing .overlap-group-1 {
+  border-radius: 20px;
+  height: 519px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+}
+.restaurants-listing .overlap-group16 {
+  align-self: flex-end;
+  height: 55px;
+  margin-left: 580px;
+  position: relative;
+  min-height: 100px; 
+  width: 543px;
+}
+.restaurants-listing .place {
+  min-height: 100px;
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 201px;
+}
+.restaurants-listing .rectangle-17 {
+  background-color: var(--mist-gray);
+  border-radius: 20px;
+  height: 519px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 376px;
+}
+.restaurants-listing .rectangle-20 {
+  height: 374px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 376px;
+}
+.restaurants-listing .rectangle-20-1 {
+  height: 374px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 376px;
+}
+.restaurants-listing .stories-i4218141 {
+  left: 225px;
+  letter-spacing: 0px;
+  position: absolute;
+  min-height: 100px; 
+  text-align: center;
+  top: 0px;
+  width: 201px;
+}
+.restaurants-listing .text-1 {
+  letter-spacing: 0px;
+  min-height: 28px;
+  min-width: 248px;
+  text-align: center;
+}
+.restaurants-listing .text-2 {
+  letter-spacing: 0px;
+  min-height: 28px;
+  min-width: 156px;
+  text-align: center;
+}
+.restaurants-listing .text-3 {
+  letter-spacing: 0px;
+  min-height: 28px;
+  min-width: 165px;
+  text-align: center;
+}
+.restaurants-listing .text-4 {
+  letter-spacing: 0px;
+  margin-top: 9px;
+  min-height: 84px;
+  min-width: 123px;
+  text-align: center;
+}
+.restaurants-listing .text-5 {
+  letter-spacing: 0px;
+  margin-top: 9px;
+  min-height: 140px;
+  min-width: 158px;
+  text-align: center;
+}
+.restaurants-listing .text-6 {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 420px;
+  width: 353px;
+}
+.restaurants-listing .text-7 {
+  letter-spacing: 0px;
+  margin-top: 4px;
+  min-height: 100px;
+  width: 156px;
+}
+.restaurants-listing .the-acorn-540 {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  min-height: 100px; 
+  top: 392px;
+}
+.restaurants-listing .the-acorn-i58 {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  margin: 0;  
+  top: 392px;
+}
+.restaurants-listing .vector {
+  height: 11px;
+  margin-left: 13px;
+  margin-top: 2.16px;
+  width: 24px;
+}
+.restaurants-listing .vector-1 {
+  height: 18px;
+  left: 346px;
+  position: absolute;
+  top: 480px;
+  width: 11px;
+}
+.restaurants-listing .vector-2 {
+  align-self: flex-start;
+  height: 18px;
+  margin-left: 345.77px;
+  margin-top: 37px;
+  width: 11px;
+}
+.restaurants-listing .vector-3 {
+  height: 18px;
+  margin-left: 3px;
+  margin-top: 2px;
+  width: 11px;
+}
+.restaurants-listing .vector-4 {
+  height: 39px;
+  left: 210px;
+  position: absolute;
+  top: 117px;
+  width: 38px;
+}
+.restaurants-listing .vector-5 {
+  height: 39px;
+  left: 209px;
+  position: absolute;
+  top: 47px;
+  width: 40px;
+}
+.restaurants-listing .vector-6 {
+  height: 32px;
+  margin-left: 0.46px;
+  width: 40px;
+}
+.restaurants-listing .vector-7 {
+  height: 27px;
+  margin-top: 45px;
+  width: 40px;
+}
+.restaurants-listing .vegetable-forward-re {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 420px;
+  width: 353px;
+}
+.restaurants-listing .what-do-we-do-here-a {
+  letter-spacing: 0px;
+  min-height: 97px;
+  text-align: center;
+  width: 569px;
+}
+.restaurants-listing .x3995-main-street-van {
+  left: 15px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 492px;
+  width: 353px;
+}
+.roboto-bold-black-64px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  min-height: 100px; 
+}
+.roboto-light-black-14px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  min-height: 100px; 
+}
+.roboto-light-black-18px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  min-height: 100px; 
+}
+.roboto-medium-black-24px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  min-height: 100px;
+}
+.roboto-medium-black-36px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  min-height: 100px;
+}
+.roboto-normal-black-24px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  min-height: 100px;
+}
+.roboto-normal-black-36px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  min-height: 100px;
+}
+:root {
+  --mist-gray: rgba(196, 196, 196, 1);
+  --soft-peach: rgba(244, 239, 239, 1);
+}
+
+
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.v42_0 {
+  width: 100%;
+  height: 3734px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v47_0 {
+  width: 246px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 404px;
+  left: 1089px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v66_172 {
+  width: 154px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3453px;
+  left: 1193px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v47_1 {
+  width: 24px;
+  height: 10px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 406px;
+  left: 1350px;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v66_170 {
+  width: 10px;
+  height: 16px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 469px;
+  left: 347px;
+}
+.v66_171 {
+  width: 10px;
+  height: 16px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 3459px;
+  left: 1353px;
+}
+.name {
+  color: #fff;
+}

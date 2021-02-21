@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+<meta name="viewport" content="width=device-width initial-scale=1">
+<!-- <link href="https://fonts.googleapis.com/css?family=?????&display=swap" rel="stylesheet" /> -->
+<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<link href="main2.css" rel="stylesheet" />
+<title>Document</title>
+</head>
+<body>
+<form class="application-for-business smart-layers-pointers" name="form1" action="form1" method="post" id = "add-restaurant-form">
+  <div class="component-2">
+    <h1 class="go-local-i342143 roboto-bold-black-96px">Join Us!</h1>
+    <div class="what-do-we-do-here-a roboto-normal-black-36px">
+      Are you a local small business around Greater Vancouver Area? Join us here!
+    </div>
+  </div>
+  <div class="rectangle-6"></div>
+  <div class="group-3">
+    <div class="overlap-group-1">
+      <div class="address-57 roboto-normal-black-36px">Address</div>
+      <div class="rectangle- border-class-1"></div>
+      <input
+        class="enter- roboto-light-black-30px"
+        name="address"
+        placeholder="Enter business address"
+        type="text"
+        required
+      />
+    </div>
+  </div>
+  <div class="group-2">
+    <div class="overlap-group-1">
+      <div class="business-name-51 roboto-normal-black-36px">Business Name</div>
+      <div class="rectangle- border-class-1"></div>
+      <div class="rectangle- border-class-1"></div>
+      <input
+        class="enter- roboto-light-black-30px"
+        name="business"
+        placeholder="Enter business name"
+        type="text"
+        required
+      />
+      <div class="business-name-510 roboto-normal-black-36px">Business Name</div>
+    </div>
+  </div>
+  <div class="group-5">
+    <div class="overlap-group-1">
+      <div class="postal-code-513 roboto-normal-black-36px">Postal Code</div>
+      <div class="rectangle- border-class-1"></div>
+      <input
+        class="enter- roboto-light-black-30px"
+        name="postalCode"
+        placeholder="Enter postal code"
+        type="text"
+        required
+      />
+    </div>
+  </div>
+  <div class="group-6">
+    <div class="overlap-group-1">
+      <div class="cuisine-120 roboto-normal-black-36px">Cuisine</div>
+      <div class="rectangle- border-class-1"></div>
+      <input
+        class="enter- roboto-light-black-30px"
+        name="cuisine"
+        placeholder="Enter cuisine"
+        type="text"
+        required
+      />
+    </div>
+  </div>
+  <div class="group-8">
+    <div class="overlap-group">
+      <div class="website-345 roboto-normal-black-36px">Cuisine</div>
+      <div class="overlap-group1 border-class-1"></div>
+      <input
+        class="enter- roboto-light-black-30px"
+        name="website"
+        placeholder="Enter website"
+        type="text"
+        required
+      />
+    </div>
+  </div>
+<!--   <div class="overlap-group">
+    <div class="group-8">
+      <div class="website-345 roboto-normal-black-36px">Website</div>
+      <div class="overlap-group1 border-class-1">
+        <input
+          class="enter- roboto-light-black-30px"
+          name="website"
+          placeholder="Enter website"
+          type="text"
+
+        />
+      </div>
+    </div> -->
+    <div class="group-9">
+      <div class="description-349 roboto-normal-black-36px">Description</div>
+      <div class="overlap-group2 border-class-1">
+        <input
+          class="enter-a-ge-iness-3411 roboto-light-black-30px"
+          name="description"
+          placeholder="Enter a general description of your business!"
+          type="text"
+          required
+        />
+      </div>
+    </div>
+    <div class="group-7">
+      <div class="overlap-group3">
+        <div class="category-123 roboto-normal-black-36px">Category</div>
+        <div class="rectangle-16"></div>
+        <div class="rectangle- border-class-1"></div>
+        <input
+          class="select-category-125 roboto-light-black-30px smart-layers-pointers"
+          name="category"
+          id = "category"
+          placeholder="Select category"
+          type="text"
+          required
+        />
+      </div>
+    </div>
+  </div>
+  <div class="group-4">
+    <div class="overlap-group5">
+      <div class="city-516 roboto-normal-black-36px">City</div>
+      <div class="rectangle-11 border-class-1"></div>
+      <input
+        class="enter-city-cation-518 roboto-light-black-30px"
+        name="city"
+        placeholder="Enter city location"
+        type="text"
+        required
+      />
+    </div>
+  </div>
+  <a href="javascript:SubmitForm('form1')">
+
+    <button type="submit"><div class="more-i3412148 roboto-light-black-30px more-button">Add Restaurant</div> </button>
+    <!-- <div class="more-button "><div class="more-i3412148 roboto-light-black-30px">Submit</div></div></a
+  > -->
+  <div class="footer">
+    <div class="overlap-group6">
+      <div class="lo-go-i343733 roboto-bold-black-64px">LO<br />GO</div>
+      <div class="akar-icons-ebook-fill"></div>
+      <img
+        class="vector-1"
+        src="https://anima-uploads.s3.amazonaws.com/projects/6031918eecbdc8d382da9617/releases/6031e9058747711f3b225c5c/img/vector-4@2x.svg"
+      />
+    </div>
+    <div class="auto-flex">
+      <img
+        class="vector-2"
+        src="https://anima-uploads.s3.amazonaws.com/projects/6031918eecbdc8d382da9617/releases/6031a9b0a8300a54412b3f45/img/vector-2@2x.svg"
+      />
+      <div class="akar-icons-utube-fill">
+        <img
+          class="vector-3"
+          src="https://anima-uploads.s3.amazonaws.com/projects/6031918eecbdc8d382da9617/releases/6031a9b0a8300a54412b3f45/img/vector-1@2x.svg"
+        />
+      </div>
+    </div>
+    <div class="auto-flex1">
+      <div class="text-1 roboto-medium-black-24px">Local Business</div>
+      <div class="text-2 roboto-normal-black-24px">All List<br />Application<br />More</div>
+    </div>
+    <div class="auto-flex2">
+      <div class="text-4 roboto-medium-black-24px">About Us</div>
+      <div class="text-3 roboto-normal-black-24px">Contact<br />Support<br />Join Our Team<br />FAQ</div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="go-local-i330138 roboto-medium-black-36px">Go Local</div>
+    <div class="overlap-group7">
+      <div class="place roboto-normal-black-24px">home</div>
+      <div class="all-i330140 roboto-normal-black-24px">all</div>
+      <div class="stories-i330141 roboto-normal-black-24px">stories</div>
+      <a href="application-for-business.html"><div class="apply-i330142 roboto-normal-black-24px">apply</div></a>
+    </div>
+  </div>
+</form>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyBFPe6AE0ZjyKOQ2oO1QnxVU4aAy--6iyI",
+    authDomain: "localrestaurants-a75b6.firebaseapp.com",
+    databaseURL: "https://localrestaurants-a75b6-default-rtdb.firebaseio.com",
+    projectId: "localrestaurants-a75b6",
+    storageBucket: "localrestaurants-a75b6.appspot.com",
+    messagingSenderId: "631629172629",
+    appId: "1:631629172629:web:8cf80c87c17bd840f9f09c",
+    measurementId: "G-BP3TRVJ09B"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.firestore();
+  db.settings({ timestampInSnapshots: true });
+</script>
+<script src ="addrestaurant.js"></script>
+</body>
+</html>
