@@ -1,4 +1,4 @@
-# StormHacks
+# StormHacks - Team Go Local 
 
 # Inspiration
 More than 14,000 businesses in BC closed during the first two months of the COVID-19 pandemic. While all businesses are struggling due to the world-wide pandemic, there are local businesses that are struggling much more. a website highlighting local businesses around us who would appreciate our love and support during this trying time.
